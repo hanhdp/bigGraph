@@ -323,7 +323,7 @@ vector<int> ProcessBatch()
 				}
 				if (cmd == 'A'){
 					InsertNode(Edges[OUTGOING][u], v);
-					S[OUTGOING][u] += Edges[OUTGOING][GetID(v)].size();		    		
+					S[OUTGOING][u] += Edges[OUTGOING][v].size();		    		
 				}else{
 					DeleteNode(Edges[OUTGOING][u], v);					
 				}
@@ -338,7 +338,7 @@ vector<int> ProcessBatch()
 				tie(u, v, time, cmd) = updates[i];
 				if (cmd == 'A'){
 					InsertNode(Edges[INCOMING][v], u);
-					S[INCOMING][v] += Edges[INCOMING][GetID(u)].size();
+					S[INCOMING][v] += Edges[INCOMING][u].size();
 				}
 				else
 					DeleteNode(Edges[INCOMING][v], u);
