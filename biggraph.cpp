@@ -289,7 +289,7 @@ void Build()
     	S[dir].resize(Node_Num);
     	for (uint32_t v = 0; v < Node_Num; v++){
     		for (uint32_t w : Edges[dir][v]){
-    			S[dir][v] += Edges[dir][GetID(w)].size();
+    			S[dir][v] += 1+Edges[dir][GetID(w)].size();
     		}
     	}
     }
@@ -323,7 +323,7 @@ vector<int> ProcessBatch()
 				}
 				if (cmd == 'A'){
 					InsertNode(Edges[OUTGOING][u], v);
-					S[OUTGOING][u] += Edges[OUTGOING][v].size();		    		
+					S[OUTGOING][u] += 1+Edges[OUTGOING][v].size();		    		
 				}else{
 					DeleteNode(Edges[OUTGOING][u], v);					
 				}
@@ -338,7 +338,7 @@ vector<int> ProcessBatch()
 				tie(u, v, time, cmd) = updates[i];
 				if (cmd == 'A'){
 					InsertNode(Edges[INCOMING][v], u);
-					S[INCOMING][v] += Edges[INCOMING][u].size();
+					S[INCOMING][v] += 1+Edges[INCOMING][u].size();
 				}
 				else
 					DeleteNode(Edges[INCOMING][v], u);
