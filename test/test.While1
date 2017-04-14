@@ -1,0 +1,1285 @@
+----------WHILE_TEST-----------
+
+8-1-1
+Performing SigMod ................
+
+T=32---
+Read init graph ... done (954 ms)
+Importing ... done (1742 ms)
+Result mismatch for query 329598, expected: 4, actual: 3
+Result mismatch for query 558201, expected: 4, actual: 3
+Read init graph ... done (959 ms)
+Importing ... done (1740 ms)
+Result mismatch for query 329598, expected: 4, actual: 3
+Result mismatch for query 558201, expected: 4, actual: 3
+Read init graph ... done (948 ms)
+Importing ... done (1789 ms)
+Result mismatch for query 329598, expected: 4, actual: 3
+Result mismatch for query 558201, expected: 4, actual: 3
+Read init graph ... done (948 ms)
+Importing ... done (1744 ms)
+Result mismatch for query 329598, expected: 4, actual: 3
+Result mismatch for query 558201, expected: 4, actual: 3
+Read init graph ... done (943 ms)
+Importing ... done (1722 ms)
+Result mismatch for query 329598, expected: 4, actual: 3
+Result mismatch for query 558201, expected: 4, actual: 3
+Read init graph ... done (947 ms)
+Importing ... done (1744 ms)
+Result mismatch for query 329598, expected: 4, actual: 3
+Result mismatch for query 558201, expected: 4, actual: 3
+Read init graph ... done (948 ms)
+Importing ... done (1769 ms)
+Result mismatch for query 329598, expected: 4, actual: 3
+Result mismatch for query 558201, expected: 4, actual: 3
+Read init graph ... done (944 ms)
+Importing ... done (1695 ms)
+Result mismatch for query 329598, expected: 4, actual: 3
+Result mismatch for query 558201, expected: 4, actual: 3
+Read init graph ... done (958 ms)
+Importing ... done (1732 ms)
+Result mismatch for query 329598, expected: 4, actual: 3
+Result mismatch for query 558201, expected: 4, actual: 3
+Read init graph ... done (949 ms)
+Importing ... done (1700 ms)
+Result mismatch for query 329598, expected: 4, actual: 3
+Result mismatch for query 558201, expected: 4, actual: 3
+
+T=24---
+Read init graph ... done (907 ms)
+Importing ... done (1599 ms)
+Result mismatch for query 329598, expected: 4, actual: 3
+Result mismatch for query 558201, expected: 4, actual: 3
+Read init graph ... done (908 ms)
+Importing ... done (1637 ms)
+Result mismatch for query 329598, expected: 4, actual: 3
+Result mismatch for query 558201, expected: 4, actual: 3
+Read init graph ... done (905 ms)
+Importing ... done (1573 ms)
+Result mismatch for query 329598, expected: 4, actual: 3
+Result mismatch for query 558201, expected: 4, actual: 3
+Read init graph ... done (904 ms)
+Importing ... done (1598 ms)
+Result mismatch for query 329598, expected: 4, actual: 3
+Result mismatch for query 558201, expected: 4, actual: 3
+Read init graph ... done (895 ms)
+Importing ... done (1603 ms)
+Result mismatch for query 329598, expected: 4, actual: 3
+Result mismatch for query 558201, expected: 4, actual: 3
+Read init graph ... done (906 ms)
+Importing ... done (1630 ms)
+Result mismatch for query 329598, expected: 4, actual: 3
+Result mismatch for query 558201, expected: 4, actual: 3
+Read init graph ... done (905 ms)
+Importing ... done (1592 ms)
+Result mismatch for query 329598, expected: 4, actual: 3
+Result mismatch for query 558201, expected: 4, actual: 3
+Read init graph ... done (889 ms)
+Importing ... done (1623 ms)
+Result mismatch for query 329598, expected: 4, actual: 3
+Result mismatch for query 558201, expected: 4, actual: 3
+Read init graph ... done (895 ms)
+Importing ... done (2594 ms)
+Result mismatch for query 329598, expected: 4, actual: 3
+Result mismatch for query 558201, expected: 4, actual: 3
+Read init graph ... done (907 ms)
+Importing ... done (1625 ms)
+Result mismatch for query 329598, expected: 4, actual: 3
+Result mismatch for query 558201, expected: 4, actual: 3
+
+T=16---
+Read init graph ... done (782 ms)
+Importing ... done (1443 ms)
+Result mismatch for query 329598, expected: 4, actual: 3
+Result mismatch for query 558201, expected: 4, actual: 3
+Read init graph ... done (780 ms)
+Importing ... done (1449 ms)
+Result mismatch for query 329598, expected: 4, actual: 3
+Result mismatch for query 558201, expected: 4, actual: 3
+Read init graph ... done (786 ms)
+Importing ... done (1416 ms)
+Result mismatch for query 329598, expected: 4, actual: 3
+Result mismatch for query 558201, expected: 4, actual: 3
+Read init graph ... done (777 ms)
+Importing ... done (1447 ms)
+Result mismatch for query 329598, expected: 4, actual: 3
+Result mismatch for query 558201, expected: 4, actual: 3
+Read init graph ... done (784 ms)
+Importing ... done (1411 ms)
+Result mismatch for query 329598, expected: 4, actual: 3
+Result mismatch for query 558201, expected: 4, actual: 3
+Read init graph ... done (781 ms)
+Importing ... done (1405 ms)
+Result mismatch for query 329598, expected: 4, actual: 3
+Result mismatch for query 558201, expected: 4, actual: 3
+Read init graph ... done (781 ms)
+Importing ... done (1415 ms)
+Result mismatch for query 329598, expected: 4, actual: 3
+Result mismatch for query 558201, expected: 4, actual: 3
+Read init graph ... done (774 ms)
+Importing ... done (1402 ms)
+Result mismatch for query 329598, expected: 4, actual: 3
+Result mismatch for query 558201, expected: 4, actual: 3
+Read init graph ... done (784 ms)
+Importing ... done (1419 ms)
+Result mismatch for query 329598, expected: 4, actual: 3
+Result mismatch for query 558201, expected: 4, actual: 3
+Read init graph ... done (771 ms)
+Importing ... done (1408 ms)
+Result mismatch for query 329598, expected: 4, actual: 3
+Result mismatch for query 558201, expected: 4, actual: 3
+
+T=8---
+Read init graph ... done (734 ms)
+Importing ... done (1382 ms)
+Result mismatch for query 329598, expected: 4, actual: 3
+Result mismatch for query 558201, expected: 4, actual: 3
+Read init graph ... done (737 ms)
+Importing ... done (1356 ms)
+Result mismatch for query 329598, expected: 4, actual: 3
+Result mismatch for query 558201, expected: 4, actual: 3
+Read init graph ... done (729 ms)
+Importing ... done (1372 ms)
+Result mismatch for query 329598, expected: 4, actual: 3
+Result mismatch for query 558201, expected: 4, actual: 3
+Read init graph ... done (733 ms)
+Importing ... done (1370 ms)
+Result mismatch for query 329598, expected: 4, actual: 3
+Result mismatch for query 558201, expected: 4, actual: 3
+Read init graph ... done (729 ms)
+Importing ... done (1372 ms)
+Result mismatch for query 329598, expected: 4, actual: 3
+Result mismatch for query 558201, expected: 4, actual: 3
+Read init graph ... done (728 ms)
+Importing ... done (1363 ms)
+Result mismatch for query 329598, expected: 4, actual: 3
+Result mismatch for query 558201, expected: 4, actual: 3
+Read init graph ... done (739 ms)
+Importing ... done (1369 ms)
+Result mismatch for query 329598, expected: 4, actual: 3
+Result mismatch for query 558201, expected: 4, actual: 3
+Read init graph ... done (722 ms)
+Importing ... done (1364 ms)
+Result mismatch for query 329598, expected: 4, actual: 3
+Result mismatch for query 558201, expected: 4, actual: 3
+Read init graph ... done (736 ms)
+Importing ... done (1373 ms)
+Result mismatch for query 329598, expected: 4, actual: 3
+Result mismatch for query 558201, expected: 4, actual: 3
+Read init graph ... done (731 ms)
+Importing ... done (1370 ms)
+Result mismatch for query 329598, expected: 4, actual: 3
+Result mismatch for query 558201, expected: 4, actual: 3
+
+T=4---
+Read init graph ... done (706 ms)
+Importing ... done (1371 ms)
+Result mismatch for query 329598, expected: 4, actual: 3
+Result mismatch for query 558201, expected: 4, actual: 3
+Read init graph ... done (741 ms)
+Importing ... done (1428 ms)
+Result mismatch for query 329598, expected: 4, actual: 3
+Result mismatch for query 558201, expected: 4, actual: 3
+Read init graph ... done (708 ms)
+Importing ... done (1368 ms)
+Result mismatch for query 329598, expected: 4, actual: 3
+Result mismatch for query 558201, expected: 4, actual: 3
+Read init graph ... done (701 ms)
+Importing ... done (1329 ms)
+Result mismatch for query 329598, expected: 4, actual: 3
+Result mismatch for query 558201, expected: 4, actual: 3
+Read init graph ... done (715 ms)
+Importing ... done (1419 ms)
+Result mismatch for query 329598, expected: 4, actual: 3
+Result mismatch for query 558201, expected: 4, actual: 3
+Read init graph ... done (710 ms)
+Importing ... done (1343 ms)
+Result mismatch for query 329598, expected: 4, actual: 3
+Result mismatch for query 558201, expected: 4, actual: 3
+Read init graph ... done (717 ms)
+Importing ... done (1366 ms)
+Result mismatch for query 329598, expected: 4, actual: 3
+Result mismatch for query 558201, expected: 4, actual: 3
+Read init graph ... done (745 ms)
+Importing ... done (1426 ms)
+Result mismatch for query 329598, expected: 4, actual: 3
+Result mismatch for query 558201, expected: 4, actual: 3
+Read init graph ... done (712 ms)
+Importing ... done (1374 ms)
+Result mismatch for query 329598, expected: 4, actual: 3
+Result mismatch for query 558201, expected: 4, actual: 3
+Read init graph ... done (716 ms)
+Importing ... done (1685 ms)
+Result mismatch for query 329598, expected: 4, actual: 3
+Result mismatch for query 558201, expected: 4, actual: 3
+
+T=2---
+Read init graph ... done (705 ms)
+Importing ... done (1433 ms)
+Result mismatch for query 329598, expected: 4, actual: 3
+Result mismatch for query 558201, expected: 4, actual: 3
+Read init graph ... done (701 ms)
+Importing ... done (1350 ms)
+Result mismatch for query 329598, expected: 4, actual: 3
+Result mismatch for query 558201, expected: 4, actual: 3
+Read init graph ... done (701 ms)
+Importing ... done (1374 ms)
+Result mismatch for query 329598, expected: 4, actual: 3
+Result mismatch for query 558201, expected: 4, actual: 3
+Read init graph ... done (690 ms)
+Importing ... done (1370 ms)
+Result mismatch for query 329598, expected: 4, actual: 3
+Result mismatch for query 558201, expected: 4, actual: 3
+Read init graph ... done (699 ms)
+Importing ... done (1377 ms)
+Result mismatch for query 329598, expected: 4, actual: 3
+Result mismatch for query 558201, expected: 4, actual: 3
+Read init graph ... done (679 ms)
+Importing ... done (1364 ms)
+Result mismatch for query 329598, expected: 4, actual: 3
+Result mismatch for query 558201, expected: 4, actual: 3
+Read init graph ... done (714 ms)
+Importing ... done (1366 ms)
+Result mismatch for query 329598, expected: 4, actual: 3
+Result mismatch for query 558201, expected: 4, actual: 3
+Read init graph ... done (690 ms)
+Importing ... done (1373 ms)
+Result mismatch for query 329598, expected: 4, actual: 3
+Result mismatch for query 558201, expected: 4, actual: 3
+Read init graph ... done (681 ms)
+Importing ... done (1363 ms)
+Result mismatch for query 329598, expected: 4, actual: 3
+Result mismatch for query 558201, expected: 4, actual: 3
+Read init graph ... done (695 ms)
+Importing ... done (1375 ms)
+Result mismatch for query 329598, expected: 4, actual: 3
+Result mismatch for query 558201, expected: 4, actual: 3
+
+T=1---
+Read init graph ... done (691 ms)
+Importing ... done (1335 ms)
+Result mismatch for query 329598, expected: 4, actual: 3
+Result mismatch for query 558201, expected: 4, actual: 3
+Read init graph ... done (695 ms)
+Importing ... done (1385 ms)
+Result mismatch for query 329598, expected: 4, actual: 3
+Result mismatch for query 558201, expected: 4, actual: 3
+Read init graph ... done (682 ms)
+Importing ... done (1363 ms)
+Result mismatch for query 329598, expected: 4, actual: 3
+Result mismatch for query 558201, expected: 4, actual: 3
+Read init graph ... done (701 ms)
+Importing ... done (1357 ms)
+Result mismatch for query 329598, expected: 4, actual: 3
+Result mismatch for query 558201, expected: 4, actual: 3
+Read init graph ... done (698 ms)
+Importing ... done (1362 ms)
+Result mismatch for query 329598, expected: 4, actual: 3
+Result mismatch for query 558201, expected: 4, actual: 3
+Read init graph ... done (700 ms)
+Importing ... done (1438 ms)
+Result mismatch for query 329598, expected: 4, actual: 3
+Result mismatch for query 558201, expected: 4, actual: 3
+Read init graph ... done (695 ms)
+Importing ... done (1373 ms)
+Result mismatch for query 329598, expected: 4, actual: 3
+Result mismatch for query 558201, expected: 4, actual: 3
+Read init graph ... done (688 ms)
+Importing ... done (1364 ms)
+Result mismatch for query 329598, expected: 4, actual: 3
+Result mismatch for query 558201, expected: 4, actual: 3
+Read init graph ... done (714 ms)
+Importing ... done (1374 ms)
+Result mismatch for query 329598, expected: 4, actual: 3
+Result mismatch for query 558201, expected: 4, actual: 3
+Read init graph ... done (682 ms)
+Importing ... done (1363 ms)
+Result mismatch for query 329598, expected: 4, actual: 3
+Result mismatch for query 558201, expected: 4, actual: 3
+Performing Pockec ................
+
+T=32---
+Read init graph ... done (12364 ms)
+Importing ... done (14209 ms)
+Result mismatch for query 632733, expected: 4, actual: 5
+Read init graph ... done (13072 ms)
+Importing ... done (14858 ms)
+Result mismatch for query 632733, expected: 4, actual: 5
+Read init graph ... done (13235 ms)
+Importing ... done (15369 ms)
+Result mismatch for query 632733, expected: 4, actual: 5
+Read init graph ... done (13680 ms)
+Importing ... done (15351 ms)
+Result mismatch for query 632733, expected: 4, actual: 5
+Read init graph ... done (12972 ms)
+Importing ... done (14777 ms)
+Result mismatch for query 632733, expected: 4, actual: 5
+Read init graph ... done (13924 ms)
+Importing ... done (14815 ms)
+Result mismatch for query 632733, expected: 4, actual: 5
+Read init graph ... done (13741 ms)
+Importing ... done (15772 ms)
+Result mismatch for query 632733, expected: 4, actual: 5
+Read init graph ... done (13905 ms)
+Importing ... done (15311 ms)
+Result mismatch for query 632733, expected: 4, actual: 5
+Read init graph ... done (15068 ms)
+Importing ... done (15383 ms)
+Result mismatch for query 632733, expected: 4, actual: 5
+Read init graph ... done (14476 ms)
+Importing ... done (15527 ms)
+Result mismatch for query 632733, expected: 4, actual: 5
+
+T=24---
+Read init graph ... done (12977 ms)
+Importing ... done (13753 ms)
+Result mismatch for query 632733, expected: 4, actual: 5
+Read init graph ... done (13328 ms)
+Importing ... done (14001 ms)
+Result mismatch for query 632733, expected: 4, actual: 5
+Read init graph ... done (12962 ms)
+Importing ... done (14473 ms)
+Result mismatch for query 632733, expected: 4, actual: 5
+Read init graph ... done (13340 ms)
+Importing ... done (14600 ms)
+Result mismatch for query 632733, expected: 4, actual: 5
+Read init graph ... done (13151 ms)
+Importing ... done (14453 ms)
+Result mismatch for query 632733, expected: 4, actual: 5
+Read init graph ... done (13166 ms)
+Importing ... done (14535 ms)
+Result mismatch for query 632733, expected: 4, actual: 5
+Read init graph ... done (13045 ms)
+Importing ... done (14381 ms)
+Result mismatch for query 632733, expected: 4, actual: 5
+Read init graph ... done (13120 ms)
+Importing ... done (14176 ms)
+Result mismatch for query 632733, expected: 4, actual: 5
+Read init graph ... done (12122 ms)
+Importing ... done (13320 ms)
+Result mismatch for query 632733, expected: 4, actual: 5
+Read init graph ... done (13170 ms)
+Importing ... done (14648 ms)
+Result mismatch for query 632733, expected: 4, actual: 5
+
+T=16---
+Read init graph ... done (12003 ms)
+Importing ... done (12270 ms)
+Result mismatch for query 632733, expected: 4, actual: 5
+Read init graph ... done (11915 ms)
+Importing ... done (12206 ms)
+Result mismatch for query 632733, expected: 4, actual: 5
+Read init graph ... done (11536 ms)
+Importing ... done (12087 ms)
+Result mismatch for query 632733, expected: 4, actual: 5
+Read init graph ... done (12826 ms)
+Importing ... done (14783 ms)
+Result mismatch for query 632733, expected: 4, actual: 5
+Read init graph ... done (11922 ms)
+Importing ... done (12063 ms)
+Result mismatch for query 632733, expected: 4, actual: 5
+Read init graph ... done (11901 ms)
+Importing ... done (12175 ms)
+Result mismatch for query 632733, expected: 4, actual: 5
+Read init graph ... done (12976 ms)
+Importing ... done (14936 ms)
+Result mismatch for query 632733, expected: 4, actual: 5
+Read init graph ... done (12039 ms)
+Importing ... done (12125 ms)
+Result mismatch for query 632733, expected: 4, actual: 5
+Read init graph ... done (16680 ms)
+Importing ... done (14880 ms)
+Result mismatch for query 632733, expected: 4, actual: 5
+Read init graph ... done (11795 ms)
+Importing ... done (12115 ms)
+Result mismatch for query 632733, expected: 4, actual: 5
+
+T=8---
+Read init graph ... done (11576 ms)
+Importing ... done (11926 ms)
+Result mismatch for query 632733, expected: 4, actual: 5
+Read init graph ... done (11309 ms)
+Importing ... done (11899 ms)
+Result mismatch for query 632733, expected: 4, actual: 5
+Read init graph ... done (11222 ms)
+Importing ... done (11836 ms)
+Result mismatch for query 632733, expected: 4, actual: 5
+Read init graph ... done (11531 ms)
+Importing ... done (11928 ms)
+Result mismatch for query 632733, expected: 4, actual: 5
+Read init graph ... done (11161 ms)
+Importing ... done (11895 ms)
+Result mismatch for query 632733, expected: 4, actual: 5
+Read init graph ... done (12180 ms)
+Importing ... done (14045 ms)
+Result mismatch for query 632733, expected: 4, actual: 5
+Read init graph ... done (11721 ms)
+Importing ... done (11940 ms)
+Result mismatch for query 632733, expected: 4, actual: 5
+Read init graph ... done (11459 ms)
+Importing ... done (11845 ms)
+Result mismatch for query 632733, expected: 4, actual: 5
+Read init graph ... done (11581 ms)
+Importing ... done (12047 ms)
+Result mismatch for query 632733, expected: 4, actual: 5
+Read init graph ... done (12391 ms)
+Importing ... done (11947 ms)
+Result mismatch for query 632733, expected: 4, actual: 5
+
+T=4---
+Read init graph ... done (11137 ms)
+Importing ... done (11552 ms)
+Result mismatch for query 632733, expected: 4, actual: 5
+Read init graph ... done (11273 ms)
+Importing ... done (11574 ms)
+Result mismatch for query 632733, expected: 4, actual: 5
+Read init graph ... done (11610 ms)
+Importing ... done (13173 ms)
+Result mismatch for query 632733, expected: 4, actual: 5
+Read init graph ... done (10636 ms)
+Importing ... done (11012 ms)
+Result mismatch for query 632733, expected: 4, actual: 5
+Read init graph ... done (11212 ms)
+Importing ... done (11635 ms)
+Result mismatch for query 632733, expected: 4, actual: 5
+Read init graph ... done (10865 ms)
+Importing ... done (11521 ms)
+Result mismatch for query 632733, expected: 4, actual: 5
+Read init graph ... done (11234 ms)
+Importing ... done (11603 ms)
+Result mismatch for query 632733, expected: 4, actual: 5
+Read init graph ... done (10483 ms)
+Importing ... done (11056 ms)
+Result mismatch for query 632733, expected: 4, actual: 5
+Read init graph ... done (11347 ms)
+Importing ... done (11555 ms)
+Result mismatch for query 632733, expected: 4, actual: 5
+Read init graph ... done (10914 ms)
+Importing ... done (11538 ms)
+Result mismatch for query 632733, expected: 4, actual: 5
+
+T=2---
+Read init graph ... done (10995 ms)
+Importing ... done (11529 ms)
+Result mismatch for query 632733, expected: 4, actual: 5
+Read init graph ... done (11161 ms)
+Importing ... done (11613 ms)
+Result mismatch for query 632733, expected: 4, actual: 5
+Read init graph ... done (10941 ms)
+Importing ... done (11656 ms)
+Result mismatch for query 632733, expected: 4, actual: 5
+Read init graph ... done (11283 ms)
+Importing ... done (11631 ms)
+Result mismatch for query 632733, expected: 4, actual: 5
+Read init graph ... done (11038 ms)
+Importing ... done (11547 ms)
+Result mismatch for query 632733, expected: 4, actual: 5
+Read init graph ... done (11204 ms)
+Importing ... done (11613 ms)
+Result mismatch for query 632733, expected: 4, actual: 5
+Read init graph ... done (10880 ms)
+Importing ... done (11614 ms)
+Result mismatch for query 632733, expected: 4, actual: 5
+Read init graph ... done (11157 ms)
+Importing ... done (11605 ms)
+Result mismatch for query 632733, expected: 4, actual: 5
+Read init graph ... done (10968 ms)
+Importing ... done (11507 ms)
+Result mismatch for query 632733, expected: 4, actual: 5
+Read init graph ... done (11192 ms)
+Importing ... done (11371 ms)
+Result mismatch for query 632733, expected: 4, actual: 5
+
+T=1---
+Read init graph ... done (11344 ms)
+Importing ... done (11604 ms)
+Result mismatch for query 632733, expected: 4, actual: 5
+Read init graph ... done (10875 ms)
+Importing ... done (11509 ms)
+Result mismatch for query 632733, expected: 4, actual: 5
+Read init graph ... done (11246 ms)
+Importing ... done (11705 ms)
+Result mismatch for query 632733, expected: 4, actual: 5
+Read init graph ... done (11190 ms)
+Importing ... done (11609 ms)
+Result mismatch for query 632733, expected: 4, actual: 5
+Read init graph ... done (11132 ms)
+Importing ... done (11529 ms)
+Result mismatch for query 632733, expected: 4, actual: 5
+Read init graph ... done (11243 ms)
+Importing ... done (11718 ms)
+Result mismatch for query 632733, expected: 4, actual: 5
+Read init graph ... done (11297 ms)
+Importing ... done (11602 ms)
+Result mismatch for query 632733, expected: 4, actual: 5
+Read init graph ... done (11209 ms)
+Importing ... done (11668 ms)
+Result mismatch for query 632733, expected: 4, actual: 5
+Read init graph ... done (10987 ms)
+Importing ... done (11385 ms)
+Result mismatch for query 632733, expected: 4, actual: 5
+Read init graph ... done (10972 ms)
+Importing ... done (11534 ms)
+Result mismatch for query 632733, expected: 4, actual: 5
+Performing LiveJournal ................
+
+T=32---
+3820
+3816
+3826
+3822
+3821
+3820
+3824
+3816
+3822
+3818
+
+T=24---
+4744
+4743
+4758
+4746
+4748
+4752
+4754
+4757
+4763
+4756
+
+T=16---
+6875
+6928
+6862
+6873
+6860
+6950
+6882
+6875
+6868
+6865
+
+T=8---
+12946
+12956
+12958
+13084
+12975
+12946
+12945
+13003
+12940
+12913
+
+T=4---
+27776
+28128
+27501
+27347
+27187
+27284
+27380
+27373
+27352
+27294
+
+T=2---
+80995
+79530
+79635
+80805
+79539
+81006
+79631
+80662
+79539
+80938
+
+T=1---
+79566
+81067
+79920
+81044
+79864
+80076
+79979
+79960
+79958
+79454
+
+5-4-1
+Performing SigMod ................
+
+T=32---
+Read init graph ... done (1004 ms)
+Importing ... done (1759 ms)
+Result mismatch for query 204324, expected: 4, actual: 3
+Result mismatch for query 331208, expected: 4, actual: 3
+Result mismatch for query 423988, expected: 4, actual: 5
+Read init graph ... done (960 ms)
+Importing ... done (1774 ms)
+Result mismatch for query 204324, expected: 4, actual: 3
+Result mismatch for query 331208, expected: 4, actual: 3
+Result mismatch for query 423988, expected: 4, actual: 5
+Read init graph ... done (959 ms)
+Importing ... done (1745 ms)
+Result mismatch for query 204324, expected: 4, actual: 3
+Result mismatch for query 331208, expected: 4, actual: 3
+Result mismatch for query 423988, expected: 4, actual: 5
+Read init graph ... done (1000 ms)
+Importing ... done (1721 ms)
+Result mismatch for query 204324, expected: 4, actual: 3
+Result mismatch for query 331208, expected: 4, actual: 3
+Result mismatch for query 423988, expected: 4, actual: 5
+Read init graph ... done (955 ms)
+Importing ... done (1728 ms)
+Result mismatch for query 204324, expected: 4, actual: 3
+Result mismatch for query 331208, expected: 4, actual: 3
+Result mismatch for query 423988, expected: 4, actual: 5
+Read init graph ... done (957 ms)
+Importing ... done (1769 ms)
+Result mismatch for query 204324, expected: 4, actual: 3
+Result mismatch for query 331208, expected: 4, actual: 3
+Result mismatch for query 423988, expected: 4, actual: 5
+Read init graph ... done (948 ms)
+Importing ... done (1744 ms)
+Result mismatch for query 204324, expected: 4, actual: 3
+Result mismatch for query 331208, expected: 4, actual: 3
+Result mismatch for query 423988, expected: 4, actual: 5
+Read init graph ... done (946 ms)
+Importing ... done (1743 ms)
+Result mismatch for query 204324, expected: 4, actual: 3
+Result mismatch for query 331208, expected: 4, actual: 3
+Result mismatch for query 423988, expected: 4, actual: 5
+Read init graph ... done (950 ms)
+Importing ... done (1693 ms)
+Result mismatch for query 204324, expected: 4, actual: 3
+Result mismatch for query 331208, expected: 4, actual: 3
+Result mismatch for query 423988, expected: 4, actual: 5
+Read init graph ... done (947 ms)
+Importing ... done (1688 ms)
+Result mismatch for query 204324, expected: 4, actual: 3
+Result mismatch for query 331208, expected: 4, actual: 3
+Result mismatch for query 423988, expected: 4, actual: 5
+
+T=24---
+Read init graph ... done (916 ms)
+Importing ... done (1660 ms)
+Result mismatch for query 204324, expected: 4, actual: 3
+Result mismatch for query 331208, expected: 4, actual: 3
+Result mismatch for query 423988, expected: 4, actual: 5
+Read init graph ... done (908 ms)
+Importing ... done (1579 ms)
+Result mismatch for query 204324, expected: 4, actual: 3
+Result mismatch for query 331208, expected: 4, actual: 3
+Result mismatch for query 423988, expected: 4, actual: 5
+Read init graph ... done (900 ms)
+Importing ... done (1630 ms)
+Result mismatch for query 204324, expected: 4, actual: 3
+Result mismatch for query 331208, expected: 4, actual: 3
+Result mismatch for query 423988, expected: 4, actual: 5
+Read init graph ... done (897 ms)
+Importing ... done (1651 ms)
+Result mismatch for query 204324, expected: 4, actual: 3
+Result mismatch for query 331208, expected: 4, actual: 3
+Result mismatch for query 423988, expected: 4, actual: 5
+Read init graph ... done (901 ms)
+Importing ... done (1596 ms)
+Result mismatch for query 204324, expected: 4, actual: 3
+Result mismatch for query 331208, expected: 4, actual: 3
+Result mismatch for query 423988, expected: 4, actual: 5
+Read init graph ... done (902 ms)
+Importing ... done (1596 ms)
+Result mismatch for query 204324, expected: 4, actual: 3
+Result mismatch for query 331208, expected: 4, actual: 3
+Result mismatch for query 423988, expected: 4, actual: 5
+Read init graph ... done (896 ms)
+Importing ... done (1645 ms)
+Result mismatch for query 204324, expected: 4, actual: 3
+Result mismatch for query 331208, expected: 4, actual: 3
+Result mismatch for query 423988, expected: 4, actual: 5
+Read init graph ... done (911 ms)
+Importing ... done (1626 ms)
+Result mismatch for query 204324, expected: 4, actual: 3
+Result mismatch for query 331208, expected: 4, actual: 3
+Result mismatch for query 423988, expected: 4, actual: 5
+Read init graph ... done (914 ms)
+Importing ... done (1657 ms)
+Result mismatch for query 204324, expected: 4, actual: 3
+Result mismatch for query 331208, expected: 4, actual: 3
+Result mismatch for query 423988, expected: 4, actual: 5
+Read init graph ... done (920 ms)
+Importing ... done (1654 ms)
+Result mismatch for query 204324, expected: 4, actual: 3
+Result mismatch for query 331208, expected: 4, actual: 3
+Result mismatch for query 423988, expected: 4, actual: 5
+
+T=16---
+Read init graph ... done (781 ms)
+Importing ... done (1410 ms)
+Result mismatch for query 204324, expected: 4, actual: 3
+Result mismatch for query 331208, expected: 4, actual: 3
+Result mismatch for query 423988, expected: 4, actual: 5
+Read init graph ... done (785 ms)
+Importing ... done (1413 ms)
+Result mismatch for query 204324, expected: 4, actual: 3
+Result mismatch for query 331208, expected: 4, actual: 3
+Result mismatch for query 423988, expected: 4, actual: 5
+Read init graph ... done (785 ms)
+Importing ... done (1406 ms)
+Result mismatch for query 204324, expected: 4, actual: 3
+Result mismatch for query 331208, expected: 4, actual: 3
+Result mismatch for query 423988, expected: 4, actual: 5
+Read init graph ... done (777 ms)
+Importing ... done (1418 ms)
+Result mismatch for query 204324, expected: 4, actual: 3
+Result mismatch for query 331208, expected: 4, actual: 3
+Result mismatch for query 423988, expected: 4, actual: 5
+Read init graph ... done (779 ms)
+Importing ... done (1414 ms)
+Result mismatch for query 204324, expected: 4, actual: 3
+Result mismatch for query 331208, expected: 4, actual: 3
+Result mismatch for query 423988, expected: 4, actual: 5
+Read init graph ... done (783 ms)
+Importing ... done (1449 ms)
+Result mismatch for query 204324, expected: 4, actual: 3
+Result mismatch for query 331208, expected: 4, actual: 3
+Result mismatch for query 423988, expected: 4, actual: 5
+Read init graph ... done (812 ms)
+Importing ... done (1523 ms)
+Result mismatch for query 204324, expected: 4, actual: 3
+Result mismatch for query 331208, expected: 4, actual: 3
+Result mismatch for query 423988, expected: 4, actual: 5
+Read init graph ... done (793 ms)
+Importing ... done (1450 ms)
+Result mismatch for query 204324, expected: 4, actual: 3
+Result mismatch for query 331208, expected: 4, actual: 3
+Result mismatch for query 423988, expected: 4, actual: 5
+Read init graph ... done (787 ms)
+Importing ... done (1398 ms)
+Result mismatch for query 204324, expected: 4, actual: 3
+Result mismatch for query 331208, expected: 4, actual: 3
+Result mismatch for query 423988, expected: 4, actual: 5
+Read init graph ... done (906 ms)
+Importing ... done (1656 ms)
+Result mismatch for query 204324, expected: 4, actual: 3
+Result mismatch for query 331208, expected: 4, actual: 3
+Result mismatch for query 423988, expected: 4, actual: 5
+
+T=8---
+Read init graph ... done (736 ms)
+Importing ... done (1376 ms)
+Result mismatch for query 204324, expected: 4, actual: 3
+Result mismatch for query 331208, expected: 4, actual: 3
+Result mismatch for query 423988, expected: 4, actual: 5
+Read init graph ... done (753 ms)
+Importing ... done (1374 ms)
+Result mismatch for query 204324, expected: 4, actual: 3
+Result mismatch for query 331208, expected: 4, actual: 3
+Result mismatch for query 423988, expected: 4, actual: 5
+Read init graph ... done (741 ms)
+Importing ... done (1379 ms)
+Result mismatch for query 204324, expected: 4, actual: 3
+Result mismatch for query 331208, expected: 4, actual: 3
+Result mismatch for query 423988, expected: 4, actual: 5
+Read init graph ... done (728 ms)
+Importing ... done (1409 ms)
+Result mismatch for query 204324, expected: 4, actual: 3
+Result mismatch for query 331208, expected: 4, actual: 3
+Result mismatch for query 423988, expected: 4, actual: 5
+Read init graph ... done (735 ms)
+Importing ... done (1371 ms)
+Result mismatch for query 204324, expected: 4, actual: 3
+Result mismatch for query 331208, expected: 4, actual: 3
+Result mismatch for query 423988, expected: 4, actual: 5
+Read init graph ... done (728 ms)
+Importing ... done (1367 ms)
+Result mismatch for query 204324, expected: 4, actual: 3
+Result mismatch for query 331208, expected: 4, actual: 3
+Result mismatch for query 423988, expected: 4, actual: 5
+Read init graph ... done (749 ms)
+Importing ... done (1371 ms)
+Result mismatch for query 204324, expected: 4, actual: 3
+Result mismatch for query 331208, expected: 4, actual: 3
+Result mismatch for query 423988, expected: 4, actual: 5
+Read init graph ... done (736 ms)
+Importing ... done (1379 ms)
+Result mismatch for query 204324, expected: 4, actual: 3
+Result mismatch for query 331208, expected: 4, actual: 3
+Result mismatch for query 423988, expected: 4, actual: 5
+Read init graph ... done (719 ms)
+Importing ... done (1367 ms)
+Result mismatch for query 204324, expected: 4, actual: 3
+Result mismatch for query 331208, expected: 4, actual: 3
+Result mismatch for query 423988, expected: 4, actual: 5
+Read init graph ... done (731 ms)
+Importing ... done (1371 ms)
+Result mismatch for query 204324, expected: 4, actual: 3
+Result mismatch for query 331208, expected: 4, actual: 3
+Result mismatch for query 423988, expected: 4, actual: 5
+
+T=4---
+Read init graph ... done (758 ms)
+Importing ... done (1428 ms)
+Result mismatch for query 204324, expected: 4, actual: 3
+Result mismatch for query 331208, expected: 4, actual: 3
+Result mismatch for query 423988, expected: 4, actual: 5
+Read init graph ... done (708 ms)
+Importing ... done (1370 ms)
+Result mismatch for query 204324, expected: 4, actual: 3
+Result mismatch for query 331208, expected: 4, actual: 3
+Result mismatch for query 423988, expected: 4, actual: 5
+Read init graph ... done (710 ms)
+Importing ... done (1336 ms)
+Result mismatch for query 204324, expected: 4, actual: 3
+Result mismatch for query 331208, expected: 4, actual: 3
+Result mismatch for query 423988, expected: 4, actual: 5
+Read init graph ... done (710 ms)
+Importing ... done (1372 ms)
+Result mismatch for query 204324, expected: 4, actual: 3
+Result mismatch for query 331208, expected: 4, actual: 3
+Result mismatch for query 423988, expected: 4, actual: 5
+Read init graph ... done (699 ms)
+Importing ... done (1348 ms)
+Result mismatch for query 204324, expected: 4, actual: 3
+Result mismatch for query 331208, expected: 4, actual: 3
+Result mismatch for query 423988, expected: 4, actual: 5
+Read init graph ... done (720 ms)
+Importing ... done (1372 ms)
+Result mismatch for query 204324, expected: 4, actual: 3
+Result mismatch for query 331208, expected: 4, actual: 3
+Result mismatch for query 423988, expected: 4, actual: 5
+Read init graph ... done (696 ms)
+Importing ... done (1361 ms)
+Result mismatch for query 204324, expected: 4, actual: 3
+Result mismatch for query 331208, expected: 4, actual: 3
+Result mismatch for query 423988, expected: 4, actual: 5
+Read init graph ... done (719 ms)
+Importing ... done (1355 ms)
+Result mismatch for query 204324, expected: 4, actual: 3
+Result mismatch for query 331208, expected: 4, actual: 3
+Result mismatch for query 423988, expected: 4, actual: 5
+Read init graph ... done (701 ms)
+Importing ... done (1360 ms)
+Result mismatch for query 204324, expected: 4, actual: 3
+Result mismatch for query 331208, expected: 4, actual: 3
+Result mismatch for query 423988, expected: 4, actual: 5
+Read init graph ... done (716 ms)
+Importing ... done (1347 ms)
+Result mismatch for query 204324, expected: 4, actual: 3
+Result mismatch for query 331208, expected: 4, actual: 3
+Result mismatch for query 423988, expected: 4, actual: 5
+
+T=2---
+Read init graph ... done (697 ms)
+Importing ... done (1335 ms)
+Result mismatch for query 204324, expected: 4, actual: 3
+Result mismatch for query 331208, expected: 4, actual: 3
+Result mismatch for query 423988, expected: 4, actual: 5
+Read init graph ... done (764 ms)
+Importing ... done (1424 ms)
+Result mismatch for query 204324, expected: 4, actual: 3
+Result mismatch for query 331208, expected: 4, actual: 3
+Result mismatch for query 423988, expected: 4, actual: 5
+Read init graph ... done (686 ms)
+Importing ... done (1371 ms)
+Result mismatch for query 204324, expected: 4, actual: 3
+Result mismatch for query 331208, expected: 4, actual: 3
+Result mismatch for query 423988, expected: 4, actual: 5
+Read init graph ... done (693 ms)
+Importing ... done (1372 ms)
+Result mismatch for query 204324, expected: 4, actual: 3
+Result mismatch for query 331208, expected: 4, actual: 3
+Result mismatch for query 423988, expected: 4, actual: 5
+Read init graph ... done (695 ms)
+Importing ... done (1340 ms)
+Result mismatch for query 204324, expected: 4, actual: 3
+Result mismatch for query 331208, expected: 4, actual: 3
+Result mismatch for query 423988, expected: 4, actual: 5
+Read init graph ... done (701 ms)
+Importing ... done (1374 ms)
+Result mismatch for query 204324, expected: 4, actual: 3
+Result mismatch for query 331208, expected: 4, actual: 3
+Result mismatch for query 423988, expected: 4, actual: 5
+Read init graph ... done (715 ms)
+Importing ... done (1367 ms)
+Result mismatch for query 204324, expected: 4, actual: 3
+Result mismatch for query 331208, expected: 4, actual: 3
+Result mismatch for query 423988, expected: 4, actual: 5
+Read init graph ... done (705 ms)
+Importing ... done (1372 ms)
+Result mismatch for query 204324, expected: 4, actual: 3
+Result mismatch for query 331208, expected: 4, actual: 3
+Result mismatch for query 423988, expected: 4, actual: 5
+Read init graph ... done (688 ms)
+Importing ... done (1366 ms)
+Result mismatch for query 204324, expected: 4, actual: 3
+Result mismatch for query 331208, expected: 4, actual: 3
+Result mismatch for query 423988, expected: 4, actual: 5
+Read init graph ... done (698 ms)
+Importing ... done (1370 ms)
+Result mismatch for query 204324, expected: 4, actual: 3
+Result mismatch for query 331208, expected: 4, actual: 3
+Result mismatch for query 423988, expected: 4, actual: 5
+
+T=1---
+Read init graph ... done (694 ms)
+Importing ... done (1337 ms)
+Result mismatch for query 204324, expected: 4, actual: 3
+Result mismatch for query 331208, expected: 4, actual: 3
+Result mismatch for query 423988, expected: 4, actual: 5
+Read init graph ... done (699 ms)
+Importing ... done (1373 ms)
+Result mismatch for query 204324, expected: 4, actual: 3
+Result mismatch for query 331208, expected: 4, actual: 3
+Result mismatch for query 423988, expected: 4, actual: 5
+Read init graph ... done (697 ms)
+Importing ... done (1337 ms)
+Result mismatch for query 204324, expected: 4, actual: 3
+Result mismatch for query 331208, expected: 4, actual: 3
+Result mismatch for query 423988, expected: 4, actual: 5
+Read init graph ... done (697 ms)
+Importing ... done (1374 ms)
+Result mismatch for query 204324, expected: 4, actual: 3
+Result mismatch for query 331208, expected: 4, actual: 3
+Result mismatch for query 423988, expected: 4, actual: 5
+Read init graph ... done (692 ms)
+Importing ... done (1338 ms)
+Result mismatch for query 204324, expected: 4, actual: 3
+Result mismatch for query 331208, expected: 4, actual: 3
+Result mismatch for query 423988, expected: 4, actual: 5
+Read init graph ... done (698 ms)
+Importing ... done (1370 ms)
+Result mismatch for query 204324, expected: 4, actual: 3
+Result mismatch for query 331208, expected: 4, actual: 3
+Result mismatch for query 423988, expected: 4, actual: 5
+Read init graph ... done (699 ms)
+Importing ... done (1362 ms)
+Result mismatch for query 204324, expected: 4, actual: 3
+Result mismatch for query 331208, expected: 4, actual: 3
+Result mismatch for query 423988, expected: 4, actual: 5
+Read init graph ... done (708 ms)
+Importing ... done (1372 ms)
+Result mismatch for query 204324, expected: 4, actual: 3
+Result mismatch for query 331208, expected: 4, actual: 3
+Result mismatch for query 423988, expected: 4, actual: 5
+Read init graph ... done (685 ms)
+Importing ... done (1360 ms)
+Result mismatch for query 204324, expected: 4, actual: 3
+Result mismatch for query 331208, expected: 4, actual: 3
+Result mismatch for query 423988, expected: 4, actual: 5
+Read init graph ... done (712 ms)
+Importing ... done (1627 ms)
+Result mismatch for query 204324, expected: 4, actual: 3
+Result mismatch for query 331208, expected: 4, actual: 3
+Result mismatch for query 423988, expected: 4, actual: 5
+Performing Pockec ................
+
+T=32---
+Read init graph ... done (13612 ms)
+Importing ... done (15139 ms)
+Result mismatch for query 475526, expected: 6, actual: 5
+Read init graph ... done (13872 ms)
+Importing ... done (15722 ms)
+Result mismatch for query 475526, expected: 6, actual: 5
+Read init graph ... done (13057 ms)
+Importing ... done (14514 ms)
+Result mismatch for query 475526, expected: 6, actual: 5
+Read init graph ... done (14539 ms)
+Importing ... done (15813 ms)
+Result mismatch for query 475526, expected: 6, actual: 5
+Read init graph ... done (12778 ms)
+Importing ... done (14854 ms)
+Result mismatch for query 475526, expected: 6, actual: 5
+Read init graph ... done (13856 ms)
+Importing ... done (14829 ms)
+Result mismatch for query 475526, expected: 6, actual: 5
+Read init graph ... done (13960 ms)
+Importing ... done (15693 ms)
+Result mismatch for query 475526, expected: 6, actual: 5
+Read init graph ... done (14085 ms)
+Importing ... done (15482 ms)
+Result mismatch for query 475526, expected: 6, actual: 5
+Read init graph ... done (13519 ms)
+Importing ... done (14930 ms)
+Result mismatch for query 475526, expected: 6, actual: 5
+Read init graph ... done (14179 ms)
+Importing ... done (15778 ms)
+Result mismatch for query 475526, expected: 6, actual: 5
+
+T=24---
+Read init graph ... done (13163 ms)
+Importing ... done (14557 ms)
+Result mismatch for query 475526, expected: 6, actual: 5
+Read init graph ... done (13106 ms)
+Importing ... done (14458 ms)
+Result mismatch for query 475526, expected: 6, actual: 5
+Read init graph ... done (13088 ms)
+Importing ... done (14659 ms)
+Result mismatch for query 475526, expected: 6, actual: 5
+Read init graph ... done (13112 ms)
+Importing ... done (14492 ms)
+Result mismatch for query 475526, expected: 6, actual: 5
+Read init graph ... done (13076 ms)
+Importing ... done (13617 ms)
+Result mismatch for query 475526, expected: 6, actual: 5
+Read init graph ... done (12639 ms)
+Importing ... done (13827 ms)
+Result mismatch for query 475526, expected: 6, actual: 5
+Read init graph ... done (12362 ms)
+Importing ... done (13615 ms)
+Result mismatch for query 475526, expected: 6, actual: 5
+Read init graph ... done (13104 ms)
+Importing ... done (14346 ms)
+Result mismatch for query 475526, expected: 6, actual: 5
+Read init graph ... done (13301 ms)
+Importing ... done (15068 ms)
+Result mismatch for query 475526, expected: 6, actual: 5
+Read init graph ... done (13244 ms)
+Importing ... done (14027 ms)
+Result mismatch for query 475526, expected: 6, actual: 5
+
+T=16---
+Read init graph ... done (12046 ms)
+Importing ... done (12144 ms)
+Result mismatch for query 475526, expected: 6, actual: 5
+Read init graph ... done (14229 ms)
+Importing ... done (14838 ms)
+Result mismatch for query 475526, expected: 6, actual: 5
+Read init graph ... done (11714 ms)
+Importing ... done (12275 ms)
+Result mismatch for query 475526, expected: 6, actual: 5
+Read init graph ... done (14266 ms)
+Importing ... done (14923 ms)
+Result mismatch for query 475526, expected: 6, actual: 5
+Read init graph ... done (11896 ms)
+Importing ... done (12184 ms)
+Result mismatch for query 475526, expected: 6, actual: 5
+Read init graph ... done (14135 ms)
+Importing ... done (14965 ms)
+Result mismatch for query 475526, expected: 6, actual: 5
+Read init graph ... done (11898 ms)
+Importing ... done (12126 ms)
+Result mismatch for query 475526, expected: 6, actual: 5
+Read init graph ... done (11493 ms)
+Importing ... done (12101 ms)
+Result mismatch for query 475526, expected: 6, actual: 5
+Read init graph ... done (11843 ms)
+Importing ... done (12507 ms)
+Result mismatch for query 475526, expected: 6, actual: 5
+Read init graph ... done (12388 ms)
+Importing ... done (12130 ms)
+Result mismatch for query 475526, expected: 6, actual: 5
+
+T=8---
+Read init graph ... done (12902 ms)
+Importing ... done (11918 ms)
+Result mismatch for query 475526, expected: 6, actual: 5
+Read init graph ... done (11215 ms)
+Importing ... done (11864 ms)
+Result mismatch for query 475526, expected: 6, actual: 5
+Read init graph ... done (11643 ms)
+Importing ... done (11932 ms)
+Result mismatch for query 475526, expected: 6, actual: 5
+Read init graph ... done (11295 ms)
+Importing ... done (11845 ms)
+Result mismatch for query 475526, expected: 6, actual: 5
+Read init graph ... done (11578 ms)
+Importing ... done (15985 ms)
+Result mismatch for query 475526, expected: 6, actual: 5
+Read init graph ... done (11613 ms)
+Importing ... done (11957 ms)
+Result mismatch for query 475526, expected: 6, actual: 5
+Read init graph ... done (11236 ms)
+Importing ... done (11853 ms)
+Result mismatch for query 475526, expected: 6, actual: 5
+Read init graph ... done (11317 ms)
+Importing ... done (11877 ms)
+Result mismatch for query 475526, expected: 6, actual: 5
+Read init graph ... done (11545 ms)
+Importing ... done (12011 ms)
+Result mismatch for query 475526, expected: 6, actual: 5
+Read init graph ... done (11175 ms)
+Importing ... done (12084 ms)
+Result mismatch for query 475526, expected: 6, actual: 5
+
+T=4---
+Read init graph ... done (11292 ms)
+Importing ... done (11623 ms)
+Result mismatch for query 475526, expected: 6, actual: 5
+Read init graph ... done (10790 ms)
+Importing ... done (13276 ms)
+Result mismatch for query 475526, expected: 6, actual: 5
+Read init graph ... done (10848 ms)
+Importing ... done (13761 ms)
+Result mismatch for query 475526, expected: 6, actual: 5
+Read init graph ... done (11287 ms)
+Importing ... done (11612 ms)
+Result mismatch for query 475526, expected: 6, actual: 5
+Read init graph ... done (12078 ms)
+Importing ... done (12629 ms)
+Result mismatch for query 475526, expected: 6, actual: 5
+Read init graph ... done (10990 ms)
+Importing ... done (11625 ms)
+Result mismatch for query 475526, expected: 6, actual: 5
+Read init graph ... done (11184 ms)
+Importing ... done (13584 ms)
+Result mismatch for query 475526, expected: 6, actual: 5
+Read init graph ... done (10992 ms)
+Importing ... done (11519 ms)
+Result mismatch for query 475526, expected: 6, actual: 5
+Read init graph ... done (13441 ms)
+Importing ... done (11609 ms)
+Result mismatch for query 475526, expected: 6, actual: 5
+Read init graph ... done (13043 ms)
+Importing ... done (13059 ms)
+Result mismatch for query 475526, expected: 6, actual: 5
+
+T=2---
+Read init graph ... done (10936 ms)
+Importing ... done (11606 ms)
+Result mismatch for query 475526, expected: 6, actual: 5
+Read init graph ... done (11325 ms)
+Importing ... done (11648 ms)
+Result mismatch for query 475526, expected: 6, actual: 5
+Read init graph ... done (11261 ms)
+Importing ... done (11521 ms)
+Result mismatch for query 475526, expected: 6, actual: 5
+Read init graph ... done (10991 ms)
+Importing ... done (12575 ms)
+Result mismatch for query 475526, expected: 6, actual: 5
+Read init graph ... done (11228 ms)
+Importing ... done (11651 ms)
+Result mismatch for query 475526, expected: 6, actual: 5
+Read init graph ... done (11338 ms)
+Importing ... done (12568 ms)
+Result mismatch for query 475526, expected: 6, actual: 5
+Read init graph ... done (10965 ms)
+Importing ... done (11557 ms)
+Result mismatch for query 475526, expected: 6, actual: 5
+Read init graph ... done (11326 ms)
+Importing ... done (11595 ms)
+Result mismatch for query 475526, expected: 6, actual: 5
+Read init graph ... done (11240 ms)
+Importing ... done (11650 ms)
+Result mismatch for query 475526, expected: 6, actual: 5
+Read init graph ... done (11022 ms)
+Importing ... done (11537 ms)
+Result mismatch for query 475526, expected: 6, actual: 5
+
+T=1---
+Read init graph ... done (11232 ms)
+Importing ... done (11387 ms)
+Result mismatch for query 475526, expected: 6, actual: 5
+Read init graph ... done (11293 ms)
+Importing ... done (11617 ms)
+Result mismatch for query 475526, expected: 6, actual: 5
+Read init graph ... done (10956 ms)
+Importing ... done (11555 ms)
+Result mismatch for query 475526, expected: 6, actual: 5
+Read init graph ... done (11336 ms)
+Importing ... done (12101 ms)
+Result mismatch for query 475526, expected: 6, actual: 5
+Read init graph ... done (10847 ms)
+Importing ... done (11551 ms)
+Result mismatch for query 475526, expected: 6, actual: 5
+Read init graph ... done (11163 ms)
+Importing ... done (11601 ms)
+Result mismatch for query 475526, expected: 6, actual: 5
+Read init graph ... done (11107 ms)
+Importing ... done (11435 ms)
+Result mismatch for query 475526, expected: 6, actual: 5
+Read init graph ... done (11318 ms)
+Importing ... done (11617 ms)
+Result mismatch for query 475526, expected: 6, actual: 5
+Read init graph ... done (10882 ms)
+Importing ... done (11343 ms)
+Result mismatch for query 475526, expected: 6, actual: 5
+Read init graph ... done (11331 ms)
+Importing ... done (11623 ms)
+Result mismatch for query 475526, expected: 6, actual: 5
+Performing LiveJournal ................
+
+T=32---
+3395
+3406
+3467
+3393
+3387
+3520
+3392
+3395
+3399
+3381
+
+T=24---
+3978
+3933
+3944
+3986
+3988
+3959
+3967
+3969
+3969
+3961
+
+T=16---
+5216
+5281
+5252
+5278
+5290
+5238
+5255
+5271
+5252
+5292
+
+T=8---
+9202
+9208
+9089
+9165
+9128
+9218
+9133
+9132
+9136
+9152
+
+T=4---
+18422
+18581
+18318
+18400
+18536
+18411
+18464
+18458
+18529
+18486
+
+T=2---
+53031
+52974
+53641
+52839
+53507
+53000
+53359
+53122
+52822
+53644
+
+T=1---
+52495
+52960
+52850
+53130
+53785
+53077
+53799
+52677
+52971
+52866
