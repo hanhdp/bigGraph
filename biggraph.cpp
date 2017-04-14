@@ -14,7 +14,7 @@
 #include <iostream>
 #include <cilk/cilk_api.h>
 #include <cilk/cilk.h>
-//#include "tbb/concurrent_vector.h"
+
 #define OUTGOING 0
 #define INCOMING 1
 
@@ -113,7 +113,7 @@ inline uint32_t readuint() {
 	return x;
 }
 //check for timestamp
-bool inline IsEdgeAlive(uint32_t u, uint32_t v, uint32_t time, uint32_t state){
+bool inline IsEdgeAlive(uint32_t u, uint32_t v, uint32_t state, uint32_t time){
 
 	auto iter = lower_bound(updates.begin(), updates.end(), make_tuple(u, v, time, 0));
 	if (updates.empty() || iter == updates.begin()){
@@ -169,8 +169,8 @@ int QueryDistance(uint32_t qIndex)
     			if (TestBit(threadID,w, direction)) continue;
 				uint32_t state = GetState(w_);
 				if (state == ALIVE || ((state & UNKNOWN) &&
-					(direction == 0 ? IsEdgeAlive(v, w, time, state) :
-						IsEdgeAlive(w, v, time, state) ) ) ){
+					(direction == 0 ? IsEdgeAlive(v, w, state, time) ://
+						IsEdgeAlive(w, v, state, time) ) ) ){
 					//if (d & (1 << (1 - 2 * direction + bit_pos))) {
 					if (TestBit(threadID,w, 1-direction)) {
 						res = distance[0] + distance[1];
@@ -217,20 +217,20 @@ inline void InsertNode(vector<uint32_t> &vs, uint32_t v){//mark this node is bei
 		vs.insert(iter, ToEdge(v)  | MASK);
 	}
 }
-inline void InsertEdge(vector<uint32_t> &vs, uint32_t v){//real add
+inline void CommitAdd(vector<uint32_t> &vs, uint32_t v){//real add
 	auto iter = lower_bound(vs.begin(), vs.end(), ToEdge(v));
 	if (iter != vs.end() && GetID(*iter) == v){//v exists on list vs
 		*iter = ToEdge(v);// | ALIVE;
 	}
 }
 
-inline void DeleteNode(vector<uint32_t> &vs, uint32_t v){//mark this node is being deleted
+inline void RemoveNode(vector<uint32_t> &vs, uint32_t v){//mark this node is being deleted
 	auto iter = lower_bound(vs.begin(), vs.end(), ToEdge(v));
     if (iter != vs.end() && GetID(*iter) == v){//if found
     	if (GetState(*iter) != DEAD) *iter |= UNKNOWN;
     }
 } 
-inline void DeleteEdge(vector<uint32_t> &vs, uint32_t v){//real delete
+inline void CommitDel(vector<uint32_t> &vs, uint32_t v){//real delete
 	auto iter = lower_bound(vs.begin(), vs.end(), ToEdge(v));
     if (iter != vs.end() && GetID(*iter) == v){//if found
     		*iter = ToEdge(v) | DEAD;
@@ -323,9 +323,9 @@ vector<int> ProcessBatch()
 				}
 				if (cmd == 'A'){
 					InsertNode(Edges[OUTGOING][u], v);
-					S[OUTGOING][u] += 1+Edges[OUTGOING][v].size();		    		
+					S[OUTGOING][u] += 1+Edges[OUTGOING][(v)].size();		    		
 				}else{
-					DeleteNode(Edges[OUTGOING][u], v);					
+					RemoveNode(Edges[OUTGOING][u], v);					
 				}
 			}			
 		}
@@ -338,10 +338,10 @@ vector<int> ProcessBatch()
 				tie(u, v, time, cmd) = updates[i];
 				if (cmd == 'A'){
 					InsertNode(Edges[INCOMING][v], u);
-					S[INCOMING][v] += 1+Edges[INCOMING][u].size();
+					S[INCOMING][v] += 1+Edges[INCOMING][(u)].size();
 				}
 				else
-					DeleteNode(Edges[INCOMING][v], u);
+					RemoveNode(Edges[INCOMING][v], u);
 			}			
 		}
 	}
@@ -356,11 +356,11 @@ vector<int> ProcessBatch()
 		char cmd; uint32_t u, v, t;
 		tie(u, v, t, cmd) = updates[i];
 		if (cmd == 'A'){
-			InsertEdge(Edges[0][u], v);
-			InsertEdge(Edges[1][v], u);
+			CommitAdd(Edges[0][u], v);
+			CommitAdd(Edges[1][v], u);
 		}else{
-			DeleteEdge(Edges[0][u], v);
-			DeleteEdge(Edges[1][v], u);
+			CommitDel(Edges[0][u], v);
+			CommitDel(Edges[1][v], u);
 		}
 	}
 	queries.clear();
