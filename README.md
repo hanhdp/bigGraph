@@ -1,7 +1,7 @@
 # bigGraph
 Perform the concurrent operations on the social network by the graph approach.
 
-For the paper "An Efficient Parallel Method for Concurrent Operarions on Social Networks", submitted to ICCCI 2017.
+For the paper "An Efficient Parallel Method for Performing Concurrent Operations on Social Networks", submitted to ICCCI 2017.
 
 To get the datasets,please surf at the following pages: 
 - For Pokec social network: https://snap.stanford.edu/data/soc-pokec.html
