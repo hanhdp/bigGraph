@@ -14,7 +14,7 @@
 #include <iostream>
 #include <cilk/cilk_api.h>
 #include <cilk/cilk.h>
-
+//#include "tbb/concurrent_vector.h" 
 #define OUTGOING 0
 #define INCOMING 1
 
@@ -113,7 +113,7 @@ inline uint32_t readuint() {
 	return x;
 }
 //check for timestamp
-bool inline IsEdgeAlive(uint32_t u, uint32_t v, uint32_t state, uint32_t time){
+bool inline IsEdgeAlive(uint32_t u, uint32_t v, uint32_t time, uint32_t state){
 
 	auto iter = lower_bound(updates.begin(), updates.end(), make_tuple(u, v, time, 0));
 	if (updates.empty() || iter == updates.begin()){
@@ -169,8 +169,8 @@ int QueryDistance(uint32_t qIndex)
     			if (TestBit(threadID,w, direction)) continue;
 				uint32_t state = GetState(w_);
 				if (state == ALIVE || ((state & UNKNOWN) &&
-					(direction == 0 ? IsEdgeAlive(v, w, state, time) ://
-						IsEdgeAlive(w, v, state, time) ) ) ){
+					(direction == 0 ? IsEdgeAlive(v, w, time, state) :
+						IsEdgeAlive(w, v, time, state) ) ) ){
 					//if (d & (1 << (1 - 2 * direction + bit_pos))) {
 					if (TestBit(threadID,w, 1-direction)) {
 						res = distance[0] + distance[1];
@@ -217,20 +217,20 @@ inline void InsertNode(vector<uint32_t> &vs, uint32_t v){//mark this node is bei
 		vs.insert(iter, ToEdge(v)  | MASK);
 	}
 }
-inline void CommitAdd(vector<uint32_t> &vs, uint32_t v){//real add
+inline void InsertEdge(vector<uint32_t> &vs, uint32_t v){//real add
 	auto iter = lower_bound(vs.begin(), vs.end(), ToEdge(v));
 	if (iter != vs.end() && GetID(*iter) == v){//v exists on list vs
 		*iter = ToEdge(v);// | ALIVE;
 	}
 }
 
-inline void RemoveNode(vector<uint32_t> &vs, uint32_t v){//mark this node is being deleted
+inline void DeleteNode(vector<uint32_t> &vs, uint32_t v){//mark this node is being deleted
 	auto iter = lower_bound(vs.begin(), vs.end(), ToEdge(v));
     if (iter != vs.end() && GetID(*iter) == v){//if found
     	if (GetState(*iter) != DEAD) *iter |= UNKNOWN;
     }
 } 
-inline void CommitDel(vector<uint32_t> &vs, uint32_t v){//real delete
+inline void DeleteEdge(vector<uint32_t> &vs, uint32_t v){//real delete
 	auto iter = lower_bound(vs.begin(), vs.end(), ToEdge(v));
     if (iter != vs.end() && GetID(*iter) == v){//if found
     		*iter = ToEdge(v) | DEAD;
@@ -289,7 +289,7 @@ void Build()
     	S[dir].resize(Node_Num);
     	for (uint32_t v = 0; v < Node_Num; v++){
     		for (uint32_t w : Edges[dir][v]){
-    			S[dir][v] += 1+Edges[dir][GetID(w)].size();
+    			S[dir][v] += Edges[dir][GetID(w)].size();
     		}
     	}
     }
@@ -323,9 +323,10 @@ vector<int> ProcessBatch()
 				}
 				if (cmd == 'A'){
 					InsertNode(Edges[OUTGOING][u], v);
-					S[OUTGOING][u] += 1+Edges[OUTGOING][(v)].size();		    		
+					//S[OUTGOING][u] += Edges[OUTGOING][(v)].size();		    		
 				}else{
-					RemoveNode(Edges[OUTGOING][u], v);					
+					DeleteNode(Edges[OUTGOING][u], v);
+					//S[OUTGOING][u] -= Edges[OUTGOING][(v)].size();	
 				}
 			}			
 		}
@@ -338,10 +339,12 @@ vector<int> ProcessBatch()
 				tie(u, v, time, cmd) = updates[i];
 				if (cmd == 'A'){
 					InsertNode(Edges[INCOMING][v], u);
-					S[INCOMING][v] += 1+Edges[INCOMING][(u)].size();
+					//S[INCOMING][v] += Edges[INCOMING][u].size();
 				}
-				else
-					RemoveNode(Edges[INCOMING][v], u);
+				else{
+					DeleteNode(Edges[INCOMING][v], u);
+					//S[INCOMING][v] -= Edges[INCOMING][u].size();
+				}
 			}			
 		}
 	}
@@ -356,11 +359,15 @@ vector<int> ProcessBatch()
 		char cmd; uint32_t u, v, t;
 		tie(u, v, t, cmd) = updates[i];
 		if (cmd == 'A'){
-			CommitAdd(Edges[0][u], v);
-			CommitAdd(Edges[1][v], u);
+			InsertEdge(Edges[0][u], v);
+			S[OUTGOING][u] += Edges[OUTGOING][(v)].size();
+			InsertEdge(Edges[1][v], u);
+			S[INCOMING][v] += Edges[INCOMING][u].size();
 		}else{
-			CommitDel(Edges[0][u], v);
-			CommitDel(Edges[1][v], u);
+			DeleteEdge(Edges[0][u], v);
+			S[OUTGOING][u] -= Edges[OUTGOING][(v)].size();
+			DeleteEdge(Edges[1][v], u);
+			S[INCOMING][v] -= Edges[INCOMING][u].size();
 		}
 	}
 	queries.clear();
@@ -372,6 +379,7 @@ vector<int> ProcessBatch()
 int main(int argc, char *argv[])
 {
 	__cilkrts_set_param("nworkers",to_string(num_threads).data());
+	cerr << "NumThread = " << num_threads << endl;
 	Build();
 
 	queries.reserve(10000);
